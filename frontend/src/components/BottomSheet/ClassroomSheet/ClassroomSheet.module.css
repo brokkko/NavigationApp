@@ -1,0 +1,79 @@
+.Wrapper {
+    padding: 10px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.roomInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    color: var(--text-primary);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.24px;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.headerColumn {
+    text-align: left;
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: -0.24px;
+    padding: 4px 0;
+}
+
+.row {
+    color: var(--text-primary-v2);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.24px;
+    border-top: 0.4px solid var(--text-secondary);
+    border-bottom: 0.4px solid var(--text-secondary);
+}
+
+.teacherName {
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.button {
+    font-family: "IBM Plex Sans", sans-serif;
+    display: block;
+    color: var(--background);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.24px;
+    background: var(--button-primary);
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+}

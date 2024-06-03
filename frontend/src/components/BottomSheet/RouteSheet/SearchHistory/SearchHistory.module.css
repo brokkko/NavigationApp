@@ -1,0 +1,50 @@
+.title {
+    padding-left: 7px;
+    color: var(--text-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.24px;
+}
+
+.historyPlaceholder {
+    color: var(--text-primary-v2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 120px;
+}
+
+.historyItem {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    border-top: 0.4px solid var(--text-secondary);
+    padding: 7px;
+}
+
+.historyItem:last-child {
+    border-bottom: 0.4px solid var(--text-secondary);
+}
+
+.historyName {
+    margin: 0 0 2px;
+    color: var(--text-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px; /* 107.143% */
+    letter-spacing: -0.24px;
+}
+
+.placement {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.24px;
+}

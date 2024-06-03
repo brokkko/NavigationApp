@@ -1,0 +1,92 @@
+{
+    "BottomPanel": {
+        "format": "Формат",
+        "lang": "Язык",
+        "route": "Маршрут",
+        "aboutUs": "О Нас",
+        "map": "карта"
+    },
+    "TopPanel": {
+        "searchFor": "Куда направиться?"
+    },
+    "AllClassrooms": {
+        "title": "Все помещения"
+    },
+    "ClassroomSheet": {
+        "classroom": "Аудитория {{number}}",
+        "buffet": "Буфет",
+        "exit": "Выход",
+        "directorate": "Деканат {{faculty}}",
+        "department": "Кафедра {{name}}",
+        "wardrobe": "Гардероб",
+        "cafeteria": "Столовая {{name}}",
+        "atm": "Банкомат",
+        "wc_women": "Туалет (Женский)",
+        "wc_men": "Туалет (Мужской)",
+        "duty_service": "Дежурная служба",
+        "stairs": "Лестница",
+        "building": "Корпус",
+        "floor": "Этаж",
+        "extra": "Особенности",
+        "schedule": "Расписание",
+        "time": "Время",
+        "subject": "Название предмета",
+        "group": "Группа",
+        "goThere": "Направиться туда",
+        "today": "Сегодня ({{val, datetime}})",
+        "LectureRoom": "Лекционная аудитория",
+        "MarkerBoard": "Маркерная доска",
+        "Multimedia": "Мультимедиа-оборудование",
+        "ComputerClass": "Компьютерный класс",
+        "ChalkBoard": "Меловая доска"
+    },
+    "RouteSheet": {
+        "history": "История",
+        "noHistory": "Истории поиска пока что нет.",
+        "other": "Прочее",
+        "exit": "Выход",
+        "buffet": "Буфет",
+        "directorate": "Ректорат",
+        "department": "Кафедра",
+        "cloakroom": "Гардероб",
+        "cafeteria": "Столовая",
+        "atm": "Банкомат",
+        "wcMale": "Туалет (мужской)",
+        "wcFemale": "Туалет (женский)",
+        "stairs": "Лестница",
+        "from": "Откуда",
+        "to": "Куда",
+        "yourLocation": "Ваше местоположение",
+        "placement": "Корпус {{building}}, этаж {{floor}}",
+        "selectOnMap": "Выбрать на карте",
+        "scanQR": "Отсканировать QR Код",
+        "buildRoute": "Построить маршрут"
+    },
+    "CommonInfo": {
+        "name": "Полное название университета без каких-либо сокращений",
+        "description": "Здесь может располагаться информация, в каком году был основан университети, сколько стендентов он насчитывает. Описание местоположения университета и каких-либо его достижений. Также здесь могут быть описаны направления обучения и какаих специалистов выпускает данное учебное заведение.",
+        "contacts": "Контактная информация",
+        "website": "Официальный сайт университета",
+        "reception": "Приёмная ректора",
+        "inquiries": "Для официальных запросов",
+        "publicRelations": "Отдел по связям с общественностью"
+    },
+    "Splash": {
+        "appDescription": "University Navigation System",
+        "etu": "Название университета"
+    },
+    "LocationPicker": {
+        "ready": "Готово",
+        "instruction": "Перетащите карту, чтобы выбрать местоположение",
+        "detectionError": "Невозможно обнаружить"
+    },
+    "PathOverlay": {
+        "pathTime": "Время в пути:",
+        "minutes_many": "{{count}} минут",
+        "minutes_few": "{{count}} минуты",
+        "minutes_one": "{{count}} минута",
+        "seconds_many": "{{count}} секунд",
+        "seconds_few": "{{count}} секунды",
+        "seconds_one": "{{count}} секунда"
+    }
+}

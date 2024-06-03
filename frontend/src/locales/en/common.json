@@ -1,0 +1,90 @@
+{
+    "BottomPanel": {
+        "format": "Format",
+        "lang": "Language",
+        "route": "Route",
+        "aboutUs": "About Us",
+        "map": "map"
+    },
+    "TopPanel": {
+        "searchFor": "Where to go?"
+    },
+    "AllClassrooms": {
+        "title": "All rooms"
+    },
+    "ClassroomSheet": {
+        "classroom": "Classroom {{number}}",
+        "exit": "Exit",
+        "buffet": "Buffet",
+        "directorate": "Directorate {{faculty}}",
+        "department": "Department {{name}}",
+        "wardrobe": "Cloakroom",
+        "cafeteria": "Cafeteria {{name}}",
+        "atm": "ATM",
+        "wc_women": "WC (Women)",
+        "wc_men": "WC (Men)",
+        "duty_service": "Duty Service",
+        "stairs": "Stairs",
+        "building": "Building",
+        "floor": "Floor",
+        "extra": "Extra",
+        "schedule": "Schedule",
+        "time": "Time",
+        "subject": "Subject name",
+        "group": "Group",
+        "goThere": "Go there",
+        "today": "Today ({{val, datetime}})",
+        "LectureRoom": "Lecture room",
+        "MarkerBoard": "Marker board",
+        "Multimedia": "Multidemia",
+        "ComputerClass": "Computer class",
+        "ChalkBoard": "Chalk board"
+    },
+    "RouteSheet": {
+        "history": "History",
+        "noHistory": "There is no search history yet.",
+        "other": "Other",
+        "exit": "Exit",
+        "buffet": "Buffet",
+        "directorate": "Directorate",
+        "department": "Department",
+        "cloakroom": "Cloakroom",
+        "cafeteria": "Cafeteria",
+        "atm": "ATM",
+        "wcMale": "WC (man)",
+        "wcFemale": "WC (woman)",
+        "stairs": "Stairs",
+        "from": "From",
+        "to": "To",
+        "yourLocation": "Your location",
+        "placement": "Building {{building}}, floor {{floor}}",
+        "selectOnMap": "Select on map",
+        "scanQR": "Scan QR Code",
+        "buildRoute": "Build a route"
+    },
+    "CommonInfo": {
+        "name": "Saint Petersburg Electrotechnical University «LETI»",
+        "description": "The university was founded in 1886 and is the oldest electrical engineering university in Europe. Today, St. Petersburg State Electrotechnical University \"LETI\" is a world-famous educational center, where about 10,000 students study in bachelor's, specialist's and master's programs.",
+        "contacts": "Contact information",
+        "website": "Official website of the university",
+        "reception": "Rector's reception",
+        "inquiries": "For official inquiries",
+        "publicRelations": "Public Relations Department"
+    },
+    "Splash": {
+        "appDescription": "University Navigation System",
+        "etu": "SPbETU «LETI»"
+    },
+    "LocationPicker": {
+        "ready": "Done",
+        "instruction": "Drag the map to select a location",
+        "detectionError": "Impossible to detect"
+    },
+    "PathOverlay": {
+        "pathTime": "Route time:",
+        "minutes_many": "{{count}} minutes",
+        "minutes_one": "{{count}} minute",
+        "seconds_many": "{{count}} seconds",
+        "seconds_one": "{{count}} second"
+    }
+}

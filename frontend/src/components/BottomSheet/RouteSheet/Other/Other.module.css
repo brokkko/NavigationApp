@@ -1,0 +1,15 @@
+.other {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 16px;
+}
+
+.title {
+    padding-left: 7px;
+    color: var(--text-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.24px;
+}

@@ -1,0 +1,45 @@
+.returnButton {
+    background-color: var(--button-white-transparent);
+    opacity: 0.95;
+    padding: 12px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 146px;
+    left: 8px;    
+    box-shadow: -4px 4px 10px 0px #0000001A;
+}
+
+.icon {
+    display: block;
+}
+
+.iconBig {
+    display: block;
+    scale: 1.7;
+}
+
+.selector {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.PathWrapper {
+    position: absolute;
+    bottom: 21px;
+    width: 100%;
+    padding: 0 23px;
+}
+
+.pathContent {
+    background-color: var(--background);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    font-weight: 700;
+}

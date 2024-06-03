@@ -1,0 +1,29 @@
+.Wrapper {
+    padding: 10px 15px 20px;
+}
+
+.roomsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.title {
+    color: var(--text-primary);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.24px;
+    margin: 0 0 20px;
+}
+
+.roomButton {
+    display: block;
+    background: var(--button-light-transparent);
+    font-size: 16px;
+    padding: 4px 6px;
+    border-radius: 2px;
+}

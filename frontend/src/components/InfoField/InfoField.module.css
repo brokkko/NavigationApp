@@ -1,0 +1,22 @@
+.Wrapper {
+    font-size: 14px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.24px; 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin: 0;
+    border-bottom: 1px solid var(--text-secondary);
+}
+
+.info {
+    color: var(--text-primary-v2);
+    font-weight: 500;
+    margin: 0;
+}

@@ -1,0 +1,35 @@
+.Wrapper {
+    position: absolute;
+    left: 11px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.floor {
+    border-top: 0.2px solid var(--button-dark-transparent);
+    background: var(--button-light-transparent);
+    padding: 10px 14px;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 100% */
+    letter-spacing: -0.24px;
+    cursor: pointer;
+}
+
+.floor:first-of-type {
+    border-radius: 10px 10px 0px 0px;
+    border-top: none;
+}
+
+.floor:last-of-type {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.selected {
+    background: var(--button-dark-transparent);
+    color: var(--text-light);
+}
